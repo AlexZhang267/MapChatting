@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MapChatting</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Nav-->
+    <string name="nav_map_chat">地图讨论</string>
+    <string name="nav_my_chat">我参与的讨论</string>
+    <string name="nav_near_me">附近的讨论</string>
+    <string name="nav_recommend">话题推荐</string>
+    <string name="nav_private_chat">私聊</string>
+    <string name="nav_settings">设置</string>
+
+    <!--Nav header-->
+    <string name="nav_header_name">用户名</string>
+    <string name="nav_header_info">用户信息</string>
+
+    <!-- Activity title-->
+    <string name="title_activity_discuss_list">附近的讨论</string>
+    <string name="title_activity_login">登录</string>
+
+    <!-- Login Activity -->
+    <string name="login_txt_phone">Phone</string>
+    <string name="login_btn_get_code">Get code</string>
+    <string name="login_txt_code">Code</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_toast_phone_empty">Phone number can\'t be empty</string>
+    <string name="login_toast_code_empty">Verification code can\'t be empty</string>
+    <string name="login_toast_code_success">Please check your phone to get the verification code!</string>
+    <string name="login_toast_code_fail">Fail to get the verification code!</string>
+    <string name="login_toast_login_fail">Fail to login!</string>
+    <string name="login_progress_connecting_title">Connecting</string>
+    <string name="login_progress_connecting_content">Connecting to server, please wait\.\.\.</string>
+
+
+    <!-- Discuss List Activity -->
+    <string name="activity_discuss_list_title">附近的讨论</string>
+    <string name="title_activity_discussion">DiscussionActivity</string>
+    <string name="discuss_list_toast_load_fail">Fail to load the discussion list!</string>
+
+    <!-- Discuss Activity -->
+    <string name="discussion_toast_content_fail">Fail to get discussion contents!</string>
+
+    <!-- Publish Discussion Activity -->
+    <string name="publish_btn_publish">发布</string>
+
+
+</resources>
