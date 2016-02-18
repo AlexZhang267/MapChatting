@@ -1,47 +1,34 @@
 package com.fudan.android.mapchatting.entity;
 
-import java.util.ArrayList;
+import java.io.Serializable;
+import java.util.UUID;
 
 /**
- * Created by Ethan on 16/2/17.
+ * Created by Administrator on 2016/2/16 0016.
  */
-public class User {
-    private String userName;
-    private String password;
-    private String userInfo;
-    private ArrayList<Discussion> attendedDiscussion;
-    // TODO: 16/2/17 Portrait
+public class User implements Serializable {
+    private UUID userId;
+    private String name;
 
 
-    public String getUserName() {
-        return userName;
+    public User(){
+        userId = UUID.randomUUID();
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public User(String name){
+        userId = UUID.randomUUID();
+        this.name = name;
     }
 
-    public String getPassword() {
-        return password;
+    public UUID getUserId() {
+        return userId;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public String getName() {
+        return name;
     }
 
-    public String getUserInfo() {
-        return userInfo;
-    }
-
-    public void setUserInfo(String userInfo) {
-        this.userInfo = userInfo;
-    }
-
-    public ArrayList<Discussion> getAttendedDiscussion() {
-        return attendedDiscussion;
-    }
-
-    public void setAttendedDiscussion(ArrayList<Discussion> attendedDiscussion) {
-        this.attendedDiscussion = attendedDiscussion;
+    public void setName(String name) {
+        this.name = name;
     }
 }

@@ -11,7 +11,7 @@ public class Config {
 
     public static final String CHARSET = "utf-8";
 
-    public static final String SERVER_URL = "http://175.186.145.55:8080/index.jsp"; // IP address
+    public static final String SERVER_URL = "http://114.104.192.102:8080/MapChattingServer/index.jsp"; // IP address
 
     // keyn
     public static final String KEY_TOKEN = "key_token";
@@ -27,6 +27,7 @@ public class Config {
     public static final String KEY_STARTTIME = "key_starttime";
     public static final String KEY_CONTENTS = "key_contents";
     public static final String KEY_SENTENCE = "key_sentence";
+    public static final String KEY_USER = "key_user";
 
     // value: action
     public static final String ACTION_GET_CODE = "action_get_code";

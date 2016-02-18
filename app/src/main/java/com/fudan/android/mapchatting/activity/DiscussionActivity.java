@@ -37,6 +37,8 @@ public class DiscussionActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_discussion);
 
+//        set
+
         Intent intent = getIntent();
         discussionId = intent.getStringExtra(Config.KEY_DISCUSSIONID);
         discussion = intent.getStringExtra(Config.KEY_DISCUSSION);

@@ -1,10 +1,21 @@
 <resources>
     <string name="app_name">MapChatting</string>
 
+
+    <string name="for_test">ForTest</string>
+    //for chatActivity
+    <string name="myDisplayName">User1</string>
+    <string name="typeMessage">输入消息</string>
+    <string name="send">发送</string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="gpsfollow">追随</string>
+    <string name="gpslocate">定位</string>
+    <string name="gpsrotate">旋转</string>
 
     <!--Nav-->
     <string name="nav_map_chat">地图讨论</string>
@@ -46,6 +57,8 @@
 
     <!-- Publish Discussion Activity -->
     <string name="publish_btn_publish">发布</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_chat_demo">ChatDemoActivity</string>
 
 
 </resources>
